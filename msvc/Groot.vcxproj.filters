@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="$(SolutionDir)..\msvc\Groot_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\bt_editor\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\msvc\Groot_autogen\OQ4J2MLGYJ\qrc_icons.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\msvc\Groot_autogen\OQ4J2MLGYJ\qrc_style.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\msvc\Groot_autogen\NYYW7IJ2JN\qrc_test_files.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\msvc\Groot_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="$(SolutionDir)..\msvc\CMakeFiles\c76a4e20a16edde7da03eb024e5446d5\qrc_icons.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="$(SolutionDir)..\msvc\CMakeFiles\c76a4e20a16edde7da03eb024e5446d5\qrc_style.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="$(SolutionDir)..\msvc\CMakeFiles\8667afd906b223e9049bce9c37489df6\qrc_test_files.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="$(SolutionDir)..\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(SolutionDir)..\bt_editor\resources\icons.qrc" />
+    <None Include="$(SolutionDir)..\bt_editor\resources\style.qrc" />
+    <None Include="$(SolutionDir)..\test_data\test_files.qrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C188FF0D-83E1-34F5-AF02-A1E16F0416AE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{ADE526AF-D711-3B23-92B5-9A0409381F75}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

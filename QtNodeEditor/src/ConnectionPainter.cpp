@@ -223,10 +223,10 @@ drawNormalLine(QPainter * painter,
   {
     painter->setBrush(Qt::NoBrush);
 
-    QColor c = normalColorOut; 
+    QColor co = normalColorOut; 
     if (selected)
-      c = c.darker(200);
-    p.setColor(c);
+      co = co.darker(200);
+    p.setColor(co);
     painter->setPen(p);
 
     unsigned int const segments = 60;
@@ -238,11 +238,11 @@ drawNormalLine(QPainter * painter,
 
       if (i == segments / 2)
       {
-        QColor c = normalColorIn; 
+        QColor ci = normalColorIn; 
         if (selected)
-          c = c.darker(200);
+          ci = ci.darker(200);
 
-        p.setColor(c);
+        p.setColor(ci);
         painter->setPen(p);
       }
       painter->drawLine(cubic.pointAtPercent(ratioPrev),
