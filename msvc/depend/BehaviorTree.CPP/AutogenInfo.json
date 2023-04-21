@@ -1,0 +1,286 @@
+{
+	"BUILD_DIR" : "D:/gits/Groot/msvc/depend/BehaviorTree.CPP/behaviortree_cpp_v3_autogen",
+	"CMAKE_BINARY_DIR" : "D:/gits/Groot/msvc",
+	"CMAKE_CURRENT_BINARY_DIR" : "D:/gits/Groot/msvc/depend/BehaviorTree.CPP",
+	"CMAKE_CURRENT_SOURCE_DIR" : "D:/gits/Groot/depend/BehaviorTree.CPP",
+	"CMAKE_EXECUTABLE" : "D:/Program Files/CMake/bin/cmake.exe",
+	"CMAKE_LIST_FILES" : 
+	[
+		"D:/gits/Groot/depend/BehaviorTree.CPP/CMakeLists.txt",
+		"D:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake",
+		"D:/Program Files/CMake/share/cmake-3.26/Modules/CheckLibraryExists.cmake",
+		"D:/Program Files/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake",
+		"D:/Program Files/CMake/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake",
+		"D:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake",
+		"D:/Program Files/CMake/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake",
+		"D:/Program Files/CMake/share/cmake-3.26/Modules/FindPackageMessage.cmake",
+		"D:/gits/Groot/cmake/FindZMQ.cmake",
+		"D:/Program Files/CMake/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake",
+		"D:/Program Files/CMake/share/cmake-3.26/Modules/FindPackageMessage.cmake",
+		"D:/Program Files/CMake/share/cmake-3.26/Modules/FindCurses.cmake",
+		"D:/Program Files/CMake/share/cmake-3.26/Modules/CheckLibraryExists.cmake",
+		"D:/Program Files/CMake/share/cmake-3.26/Modules/FindPkgConfig.cmake",
+		"D:/Program Files/CMake/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake",
+		"D:/Program Files/CMake/share/cmake-3.26/Modules/FindPackageMessage.cmake",
+		"D:/Program Files/CMake/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake",
+		"D:/Program Files/CMake/share/cmake-3.26/Modules/FindPackageMessage.cmake",
+		"D:/Program Files/CMake/share/cmake-3.26/Modules/CMakePackageConfigHelpers.cmake",
+		"D:/Program Files/CMake/share/cmake-3.26/Modules/WriteBasicConfigVersionFile.cmake",
+		"D:/gits/Groot/depend/BehaviorTree.CPP/cmake/Config.cmake.in"
+	],
+	"CMAKE_SOURCE_DIR" : "D:/gits/Groot",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"D:/gits/Groot/depend/BehaviorTree.CPP/3rdparty/minitrace/minitrace.h",
+			"MU",
+			"6I5HOQGZ3K/moc_minitrace.cpp",
+			null
+		],
+		[
+			"D:/gits/Groot/depend/BehaviorTree.CPP/3rdparty/tinyxml2/tinyxml2.h",
+			"MU",
+			"Y6SH5ZWMRZ/moc_tinyxml2.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "D:/gits/Groot/msvc/depend/BehaviorTree.CPP/behaviortree_cpp_v3_autogen/include",
+	"INCLUDE_DIR_Debug" : "D:/gits/Groot/msvc/depend/BehaviorTree.CPP/behaviortree_cpp_v3_autogen/include_Debug",
+	"INCLUDE_DIR_Release" : "D:/gits/Groot/msvc/depend/BehaviorTree.CPP/behaviortree_cpp_v3_autogen/include_Release",
+	"MOC_COMPILATION_FILE" : "D:/gits/Groot/msvc/depend/BehaviorTree.CPP/behaviortree_cpp_v3_autogen/mocs_compilation.cpp",
+	"MOC_COMPILATION_FILE_Debug" : "D:/gits/Groot/msvc/depend/BehaviorTree.CPP/behaviortree_cpp_v3_autogen/mocs_compilation_Debug.cpp",
+	"MOC_COMPILATION_FILE_Release" : "D:/gits/Groot/msvc/depend/BehaviorTree.CPP/behaviortree_cpp_v3_autogen/mocs_compilation_Release.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"BT_NO_COROUTINES",
+		"NODE_EDITOR_STATIC",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_WIDGETS_LIB",
+		"WIN32",
+		"WIN32_LEAN_AND_MEAN",
+		"ZMQ_FOUND",
+		"_CRT_SECURE_NO_WARNINGS"
+	],
+	"MOC_DEFINITIONS_Debug" : 
+	[
+		"BT_NO_COROUTINES",
+		"NODE_EDITOR_STATIC",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_WIDGETS_LIB",
+		"TINYXML2_DEBUG",
+		"WIN32",
+		"WIN32_LEAN_AND_MEAN",
+		"ZMQ_FOUND",
+		"_CRT_SECURE_NO_WARNINGS"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"D:/gits/Groot/msvc/depend/BehaviorTree.CPP",
+		"D:/gits/Groot/depend/BehaviorTree.CPP",
+		"D:/gits/Groot/QtNodeEditor/include",
+		"D:/gits/Groot",
+		"D:/gits/Groot/depend/BehaviorTree.CPP/include",
+		"D:/gits/Groot/depend/BehaviorTree.CPP/3rdparty",
+		"D:/gits/Groot/depend/BehaviorTree.CPP/3rdparty/lexy/include",
+		"D:/dd/zeromq-4.3.4/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : [],
+	"MOC_PREDEFS_FILE" : "",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : true,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "D:/gits/Groot/msvc/depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE_Debug" : "D:/gits/Groot/msvc/depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3_autogen.dir/ParseCache_Debug.txt",
+	"PARSE_CACHE_FILE_Release" : "D:/gits/Groot/msvc/depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3_autogen.dir/ParseCache_Release.txt",
+	"QT_MOC_EXECUTABLE" : "D:/Qt/5.15.2/msvc2019_64/bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "D:/Qt/5.15.2/msvc2019_64/bin/uic.exe",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "D:/gits/Groot/msvc/depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE_Debug" : "D:/gits/Groot/msvc/depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3_autogen.dir/AutogenUsed_Debug.txt",
+	"SETTINGS_FILE_Release" : "D:/gits/Groot/msvc/depend/BehaviorTree.CPP/CMakeFiles/behaviortree_cpp_v3_autogen.dir/AutogenUsed_Release.txt",
+	"SOURCES" : 
+	[
+		[
+			"D:/gits/Groot/depend/BehaviorTree.CPP/3rdparty/minitrace/minitrace.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/gits/Groot/depend/BehaviorTree.CPP/3rdparty/tinyxml2/tinyxml2.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/gits/Groot/depend/BehaviorTree.CPP/src/action_node.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/gits/Groot/depend/BehaviorTree.CPP/src/basic_types.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/gits/Groot/depend/BehaviorTree.CPP/src/behavior_tree.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/gits/Groot/depend/BehaviorTree.CPP/src/blackboard.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/gits/Groot/depend/BehaviorTree.CPP/src/bt_factory.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/gits/Groot/depend/BehaviorTree.CPP/src/condition_node.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/gits/Groot/depend/BehaviorTree.CPP/src/control_node.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/gits/Groot/depend/BehaviorTree.CPP/src/controls/fallback_node.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/gits/Groot/depend/BehaviorTree.CPP/src/controls/if_then_else_node.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/gits/Groot/depend/BehaviorTree.CPP/src/controls/parallel_node.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/gits/Groot/depend/BehaviorTree.CPP/src/controls/reactive_fallback.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/gits/Groot/depend/BehaviorTree.CPP/src/controls/reactive_sequence.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/gits/Groot/depend/BehaviorTree.CPP/src/controls/sequence_node.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/gits/Groot/depend/BehaviorTree.CPP/src/controls/sequence_star_node.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/gits/Groot/depend/BehaviorTree.CPP/src/controls/switch_node.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/gits/Groot/depend/BehaviorTree.CPP/src/controls/while_do_else_node.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/gits/Groot/depend/BehaviorTree.CPP/src/decorator_node.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/gits/Groot/depend/BehaviorTree.CPP/src/decorators/delay_node.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/gits/Groot/depend/BehaviorTree.CPP/src/decorators/inverter_node.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/gits/Groot/depend/BehaviorTree.CPP/src/decorators/repeat_node.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/gits/Groot/depend/BehaviorTree.CPP/src/decorators/retry_node.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/gits/Groot/depend/BehaviorTree.CPP/src/decorators/subtree_node.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/gits/Groot/depend/BehaviorTree.CPP/src/loggers/bt_cout_logger.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/gits/Groot/depend/BehaviorTree.CPP/src/loggers/bt_file_logger.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/gits/Groot/depend/BehaviorTree.CPP/src/loggers/bt_minitrace_logger.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/gits/Groot/depend/BehaviorTree.CPP/src/loggers/bt_zmq_publisher.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/gits/Groot/depend/BehaviorTree.CPP/src/shared_library.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/gits/Groot/depend/BehaviorTree.CPP/src/shared_library_WIN.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/gits/Groot/depend/BehaviorTree.CPP/src/tree_node.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/gits/Groot/depend/BehaviorTree.CPP/src/xml_parsing.cpp",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}
