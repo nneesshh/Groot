@@ -1,0 +1,418 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{35D31C5E-E1BE-3876-A2FC-7E6C0DA6BB90}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>editor_test</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)..\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectName).dir\$(Configuration)\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">editor_test</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)..\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectName).dir\$(Configuration)\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">editor_test</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\depend\zeromq-4.3.4\include;$(SolutionDir)..\depend\BehaviorTree.CPP\3rdparty\cppzmq;$(SolutionDir)..\msvc\test;$(SolutionDir)..\test;$(SolutionDir)..\msvc\test\editor_test_autogen\include_$(Configuration);$(SolutionDir)..\.\QtNodeEditor\include;$(SolutionDir)..\.;$(SolutionDir)..\depend\BehaviorTree.CPP\include;$(SolutionDir)..\QtNodeEditor\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/utf-8 %(AdditionalOptions) /external:I "D:/Qt/5.15.2/msvc2019_64/include" /external:I "D:/Qt/5.15.2/msvc2019_64/include/QtGui" /external:I "D:/Qt/5.15.2/msvc2019_64/include/QtANGLE" /external:I "D:/Qt/5.15.2/msvc2019_64/include/QtCore" /external:I "D:/Qt/5.15.2/msvc2019_64/./mkspecs/win32-msvc" /external:I "D:/Qt/5.15.2/msvc2019_64/include/QtTest" /external:I "D:/Qt/5.15.2/msvc2019_64/include/QtWidgets" /external:I "D:/Qt/5.15.2/msvc2019_64/include/QtSvg" /external:I "D:/Qt/5.15.2/msvc2019_64/include/QtXml"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>ZMQ_STATIC;%(PreprocessorDefinitions);QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;NODE_EDITOR_STATIC;ZMQ_FOUND;QT_TESTLIB_LIB;QT_TESTCASE_BUILDDIR="D:/dd/Groot-master/msvc";QT_SVG_LIB;QT_XML_LIB;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;NODE_EDITOR_STATIC;ZMQ_FOUND;QT_TESTLIB_LIB;QT_TESTCASE_BUILDDIR=\"D:/dd/Groot-master/msvc\";QT_SVG_LIB;QT_XML_LIB;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\msvc\test;$(SolutionDir)..\test;$(SolutionDir)..\msvc\test\editor_test_autogen\include_Debug;$(SolutionDir)..\.\QtNodeEditor\include;$(SolutionDir)..\.;$(SolutionDir)..\depend\BehaviorTree.CPP\include;$(SolutionDir)..\QtNodeEditor\include;$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\include;$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\include\QtGui;$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\include\QtANGLE;$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\include\QtCore;$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc;$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\include\QtTest;$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\include\QtWidgets;$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\include\QtSvg;$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\include\QtXml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\msvc\test;$(SolutionDir)..\test;$(SolutionDir)..\msvc\test\editor_test_autogen\include_Debug;$(SolutionDir)..\.\QtNodeEditor\include;$(SolutionDir)..\.;$(SolutionDir)..\depend\BehaviorTree.CPP\include;$(SolutionDir)..\QtNodeEditor\include;$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\include;$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\include\QtGui;$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\include\QtANGLE;$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\include\QtCore;$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc;$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\include\QtTest;$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\include\QtWidgets;$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\include\QtSvg;$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\include\QtXml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC and UIC for target editor_test</Message>
+      <Command>setlocal
+cd $(SolutionDir)..\msvc\test
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/dd/Groot-master/msvc/test/CMakeFiles/editor_test_autogen.dir/AutogenInfo.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>behavior_tree_editor.lib;behaviortree_cpp_v3.lib;QtNodeEditor.lib;$(SolutionDir)..\depend\zeromq-4.3.4\lib\$(Configuration)\libzmq-v143-s-4_3_4.lib;$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\lib\Qt5Testd.lib;$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\lib\Qt5Svgd.lib;$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\lib\Qt5Widgetsd.lib;$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\lib\Qt5Guid.lib;$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\lib\Qt5Xmld.lib;$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\lib\Qt5Cored.lib;ws2_32.lib;rpcrt4.lib;iphlpapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\lib\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>
+      </ImportLibrary>
+      <ProgramDataBaseFile>$(OutDir)$(TargetName).pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\depend\zeromq-4.3.4\include;$(SolutionDir)..\depend\BehaviorTree.CPP\3rdparty\cppzmq;$(SolutionDir)..\msvc\test;$(SolutionDir)..\test;$(SolutionDir)..\msvc\test\editor_test_autogen\include_$(Configuration);$(SolutionDir)..\.\QtNodeEditor\include;$(SolutionDir)..\.;$(SolutionDir)..\depend\BehaviorTree.CPP\include;$(SolutionDir)..\QtNodeEditor\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/utf-8 %(AdditionalOptions) /external:I "D:/Qt/5.15.2/msvc2019_64/include" /external:I "D:/Qt/5.15.2/msvc2019_64/include/QtGui" /external:I "D:/Qt/5.15.2/msvc2019_64/include/QtANGLE" /external:I "D:/Qt/5.15.2/msvc2019_64/include/QtCore" /external:I "D:/Qt/5.15.2/msvc2019_64/./mkspecs/win32-msvc" /external:I "D:/Qt/5.15.2/msvc2019_64/include/QtTest" /external:I "D:/Qt/5.15.2/msvc2019_64/include/QtWidgets" /external:I "D:/Qt/5.15.2/msvc2019_64/include/QtSvg" /external:I "D:/Qt/5.15.2/msvc2019_64/include/QtXml"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>ZMQ_STATIC;%(PreprocessorDefinitions);NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;NODE_EDITOR_STATIC;ZMQ_FOUND;QT_NO_DEBUG;QT_TESTLIB_LIB;QT_TESTCASE_BUILDDIR="D:/dd/Groot-master/msvc";QT_SVG_LIB;QT_XML_LIB;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;NODE_EDITOR_STATIC;ZMQ_FOUND;QT_NO_DEBUG;QT_TESTLIB_LIB;QT_TESTCASE_BUILDDIR=\"D:/dd/Groot-master/msvc\";QT_SVG_LIB;QT_XML_LIB;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\msvc\test;$(SolutionDir)..\test;$(SolutionDir)..\msvc\test\editor_test_autogen\include_Release;$(SolutionDir)..\.\QtNodeEditor\include;$(SolutionDir)..\.;$(SolutionDir)..\depend\BehaviorTree.CPP\include;$(SolutionDir)..\QtNodeEditor\include;$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\include;$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\include\QtGui;$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\include\QtANGLE;$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\include\QtCore;$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc;$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\include\QtTest;$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\include\QtWidgets;$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\include\QtSvg;$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\include\QtXml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\msvc\test;$(SolutionDir)..\test;$(SolutionDir)..\msvc\test\editor_test_autogen\include_Release;$(SolutionDir)..\.\QtNodeEditor\include;$(SolutionDir)..\.;$(SolutionDir)..\depend\BehaviorTree.CPP\include;$(SolutionDir)..\QtNodeEditor\include;$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\include;$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\include\QtGui;$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\include\QtANGLE;$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\include\QtCore;$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc;$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\include\QtTest;$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\include\QtWidgets;$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\include\QtSvg;$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\include\QtXml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC and UIC for target editor_test</Message>
+      <Command>setlocal
+cd $(SolutionDir)..\msvc\test
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/dd/Groot-master/msvc/test/CMakeFiles/editor_test_autogen.dir/AutogenInfo.json Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>behavior_tree_editor.lib;behaviortree_cpp_v3.lib;QtNodeEditor.lib;$(SolutionDir)..\depend\zeromq-4.3.4\lib\$(Configuration)\libzmq-v143-s-4_3_4.lib;$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\lib\Qt5Test.lib;$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\lib\Qt5Svg.lib;$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\lib\Qt5Widgets.lib;$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\lib\Qt5Gui.lib;$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\lib\Qt5Xml.lib;$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\lib\Qt5Core.lib;ws2_32.lib;rpcrt4.lib;iphlpapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\lib\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>
+      </ImportLibrary>
+      <ProgramDataBaseFile>$(OutDir)$(TargetName).pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="$(SolutionDir)..\msvc\CMakeFiles\3d1587b938f52a63764a688a4e7f5412\qrc_resources.cpp.rule">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Automatic RCC for ../QtNodeEditor/resources/resources.qrc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd $(SolutionDir)..\msvc\test
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/dd/Groot-master/msvc/test/CMakeFiles/editor_test_autogen.dir/AutoRcc_resources_EB4OVBCXLB_Info.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/dd/Groot-master/msvc/test/CMakeFiles/editor_test_autogen.dir/AutoRcc_resources_EB4OVBCXLB_Info.json Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)..\QtNodeEditor\resources\resources.qrc;$(SolutionDir)..\msvc\test\CMakeFiles\editor_test_autogen.dir\AutoRcc_resources_EB4OVBCXLB_Info.json;$(SolutionDir)..\QtNodeEditor\resources\convert.png;$(SolutionDir)..\QtNodeEditor\resources\DefaultStyle.json;$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\bin\rcc.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)..\msvc\test\editor_test_autogen\EB4OVBCXLB\qrc_resources.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Automatic RCC for ../QtNodeEditor/resources/resources.qrc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd $(SolutionDir)..\msvc\test
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/dd/Groot-master/msvc/test/CMakeFiles/editor_test_autogen.dir/AutoRcc_resources_EB4OVBCXLB_Info.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/dd/Groot-master/msvc/test/CMakeFiles/editor_test_autogen.dir/AutoRcc_resources_EB4OVBCXLB_Info.json Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)..\QtNodeEditor\resources\resources.qrc;$(SolutionDir)..\msvc\test\CMakeFiles\editor_test_autogen.dir\AutoRcc_resources_EB4OVBCXLB_Info.json;$(SolutionDir)..\QtNodeEditor\resources\convert.png;$(SolutionDir)..\QtNodeEditor\resources\DefaultStyle.json;$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\bin\rcc.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)..\msvc\test\editor_test_autogen\EB4OVBCXLB\qrc_resources.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="$(SolutionDir)..\msvc\CMakeFiles\83b2684de179751e72ccee3fce941c90\qrc_icons.cpp.rule">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Automatic RCC for ../bt_editor/resources/icons.qrc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd $(SolutionDir)..\msvc\test
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/dd/Groot-master/msvc/test/CMakeFiles/editor_test_autogen.dir/AutoRcc_icons_K3L5NHU5SO_Info.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/dd/Groot-master/msvc/test/CMakeFiles/editor_test_autogen.dir/AutoRcc_icons_K3L5NHU5SO_Info.json Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)..\bt_editor\resources\icons.qrc;$(SolutionDir)..\msvc\test\CMakeFiles\editor_test_autogen.dir\AutoRcc_icons_K3L5NHU5SO_Info.json;$(SolutionDir)..\bt_editor\resources\BT-edit.png;$(SolutionDir)..\bt_editor\resources\green_star.png;$(SolutionDir)..\bt_editor\resources\close_x.png;$(SolutionDir)..\bt_editor\resources\green-circle.png;$(SolutionDir)..\bt_editor\resources\BT-vertical.png;$(SolutionDir)..\bt_editor\resources\play.png;$(SolutionDir)..\bt_editor\resources\BT-horizontal.png;$(SolutionDir)..\bt_editor\resources\red-circle.png;$(SolutionDir)..\bt_editor\resources\BT.png;$(SolutionDir)..\bt_editor\resources\BT-log.png;$(SolutionDir)..\bt_editor\resources\BT-monitor.png;$(SolutionDir)..\bt_editor\resources\svg\lock_open.svg;$(SolutionDir)..\bt_editor\resources\svg\logo_splashscreen.svg;$(SolutionDir)..\bt_editor\resources\svg\target_radar.svg;$(SolutionDir)..\bt_editor\resources\svg\server_download.svg;$(SolutionDir)..\bt_editor\resources\svg\robot.svg;$(SolutionDir)..\bt_editor\resources\svg\settings.svg;$(SolutionDir)..\bt_editor\resources\svg\sequence.svg;$(SolutionDir)..\bt_editor\resources\svg\lock.svg;$(SolutionDir)..\bt_editor\resources\svg\nodes_tree.svg;$(SolutionDir)..\bt_editor\resources\svg\save_dark.svg;$(SolutionDir)..\bt_editor\resources\svg\edit_list.svg;$(SolutionDir)..\bt_editor\resources\svg\connect.svg;$(SolutionDir)..\bt_editor\resources\svg\goto_map.svg;$(SolutionDir)..\bt_editor\resources\svg\question_mark.svg;$(SolutionDir)..\bt_editor\resources\svg\fallback_star.svg;$(SolutionDir)..\bt_editor\resources\svg\upload.svg;$(SolutionDir)..\bt_editor\resources\svg\timeout.svg;$(SolutionDir)..\bt_editor\resources\svg\mobile_manipulator.svg;$(SolutionDir)..\bt_editor\resources\svg\low_battery.svg;$(SolutionDir)..\bt_editor\resources\svg\subtree.svg;$(SolutionDir)..\bt_editor\resources\svg\letter_C.svg;$(SolutionDir)..\bt_editor\resources\svg\asterix.svg;$(SolutionDir)..\bt_editor\resources\svg\gears.svg;$(SolutionDir)..\bt_editor\resources\svg\letter_i.svg;$(SolutionDir)..\bt_editor\resources\svg\list_add.svg;$(SolutionDir)..\bt_editor\resources\svg\retry.svg;$(SolutionDir)..\bt_editor\resources\svg\fallback.svg;$(SolutionDir)..\bt_editor\resources\svg\tree.svg;$(SolutionDir)..\bt_editor\resources\svg\exclaimation_mark.svg;$(SolutionDir)..\bt_editor\resources\svg\files.svg;$(SolutionDir)..\bt_editor\resources\svg\letter_A.svg;$(SolutionDir)..\bt_editor\resources\svg\fallback_reactive.svg;$(SolutionDir)..\bt_editor\resources\svg\maze_path.svg;$(SolutionDir)..\bt_editor\resources\svg\repeat.svg;$(SolutionDir)..\bt_editor\resources\svg\zoom_home.svg;$(SolutionDir)..\bt_editor\resources\svg\sequence_star.svg;$(SolutionDir)..\bt_editor\resources\svg\arrow_right.svg;$(SolutionDir)..\bt_editor\resources\svg\not_equal.svg;$(SolutionDir)..\bt_editor\resources\svg\download.svg;$(SolutionDir)..\bt_editor\resources\svg\save_white.svg;$(SolutionDir)..\bt_editor\resources\svg\star.svg;$(SolutionDir)..\bt_editor\resources\svg\manipulator.svg;$(SolutionDir)..\bt_editor\resources\svg\letter_o.svg;$(SolutionDir)..\bt_editor\resources\svg\sequence_reactive.svg;$(SolutionDir)..\bt_editor\resources\svg\magic-wand.svg;$(SolutionDir)..\bt_editor\resources\svg\robot_talk.svg;$(SolutionDir)..\bt_editor\resources\svg\folder.svg;$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\bin\rcc.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)..\msvc\test\editor_test_autogen\K3L5NHU5SO\qrc_icons.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Automatic RCC for ../bt_editor/resources/icons.qrc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd $(SolutionDir)..\msvc\test
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/dd/Groot-master/msvc/test/CMakeFiles/editor_test_autogen.dir/AutoRcc_icons_K3L5NHU5SO_Info.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/dd/Groot-master/msvc/test/CMakeFiles/editor_test_autogen.dir/AutoRcc_icons_K3L5NHU5SO_Info.json Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)..\bt_editor\resources\icons.qrc;$(SolutionDir)..\msvc\test\CMakeFiles\editor_test_autogen.dir\AutoRcc_icons_K3L5NHU5SO_Info.json;$(SolutionDir)..\bt_editor\resources\BT-edit.png;$(SolutionDir)..\bt_editor\resources\green_star.png;$(SolutionDir)..\bt_editor\resources\close_x.png;$(SolutionDir)..\bt_editor\resources\green-circle.png;$(SolutionDir)..\bt_editor\resources\BT-vertical.png;$(SolutionDir)..\bt_editor\resources\play.png;$(SolutionDir)..\bt_editor\resources\BT-horizontal.png;$(SolutionDir)..\bt_editor\resources\red-circle.png;$(SolutionDir)..\bt_editor\resources\BT.png;$(SolutionDir)..\bt_editor\resources\BT-log.png;$(SolutionDir)..\bt_editor\resources\BT-monitor.png;$(SolutionDir)..\bt_editor\resources\svg\lock_open.svg;$(SolutionDir)..\bt_editor\resources\svg\logo_splashscreen.svg;$(SolutionDir)..\bt_editor\resources\svg\target_radar.svg;$(SolutionDir)..\bt_editor\resources\svg\server_download.svg;$(SolutionDir)..\bt_editor\resources\svg\robot.svg;$(SolutionDir)..\bt_editor\resources\svg\settings.svg;$(SolutionDir)..\bt_editor\resources\svg\sequence.svg;$(SolutionDir)..\bt_editor\resources\svg\lock.svg;$(SolutionDir)..\bt_editor\resources\svg\nodes_tree.svg;$(SolutionDir)..\bt_editor\resources\svg\save_dark.svg;$(SolutionDir)..\bt_editor\resources\svg\edit_list.svg;$(SolutionDir)..\bt_editor\resources\svg\connect.svg;$(SolutionDir)..\bt_editor\resources\svg\goto_map.svg;$(SolutionDir)..\bt_editor\resources\svg\question_mark.svg;$(SolutionDir)..\bt_editor\resources\svg\fallback_star.svg;$(SolutionDir)..\bt_editor\resources\svg\upload.svg;$(SolutionDir)..\bt_editor\resources\svg\timeout.svg;$(SolutionDir)..\bt_editor\resources\svg\mobile_manipulator.svg;$(SolutionDir)..\bt_editor\resources\svg\low_battery.svg;$(SolutionDir)..\bt_editor\resources\svg\subtree.svg;$(SolutionDir)..\bt_editor\resources\svg\letter_C.svg;$(SolutionDir)..\bt_editor\resources\svg\asterix.svg;$(SolutionDir)..\bt_editor\resources\svg\gears.svg;$(SolutionDir)..\bt_editor\resources\svg\letter_i.svg;$(SolutionDir)..\bt_editor\resources\svg\list_add.svg;$(SolutionDir)..\bt_editor\resources\svg\retry.svg;$(SolutionDir)..\bt_editor\resources\svg\fallback.svg;$(SolutionDir)..\bt_editor\resources\svg\tree.svg;$(SolutionDir)..\bt_editor\resources\svg\exclaimation_mark.svg;$(SolutionDir)..\bt_editor\resources\svg\files.svg;$(SolutionDir)..\bt_editor\resources\svg\letter_A.svg;$(SolutionDir)..\bt_editor\resources\svg\fallback_reactive.svg;$(SolutionDir)..\bt_editor\resources\svg\maze_path.svg;$(SolutionDir)..\bt_editor\resources\svg\repeat.svg;$(SolutionDir)..\bt_editor\resources\svg\zoom_home.svg;$(SolutionDir)..\bt_editor\resources\svg\sequence_star.svg;$(SolutionDir)..\bt_editor\resources\svg\arrow_right.svg;$(SolutionDir)..\bt_editor\resources\svg\not_equal.svg;$(SolutionDir)..\bt_editor\resources\svg\download.svg;$(SolutionDir)..\bt_editor\resources\svg\save_white.svg;$(SolutionDir)..\bt_editor\resources\svg\star.svg;$(SolutionDir)..\bt_editor\resources\svg\manipulator.svg;$(SolutionDir)..\bt_editor\resources\svg\letter_o.svg;$(SolutionDir)..\bt_editor\resources\svg\sequence_reactive.svg;$(SolutionDir)..\bt_editor\resources\svg\magic-wand.svg;$(SolutionDir)..\bt_editor\resources\svg\robot_talk.svg;$(SolutionDir)..\bt_editor\resources\svg\folder.svg;$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\bin\rcc.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)..\msvc\test\editor_test_autogen\K3L5NHU5SO\qrc_icons.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="$(SolutionDir)..\msvc\CMakeFiles\83b2684de179751e72ccee3fce941c90\qrc_style.cpp.rule">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Automatic RCC for ../bt_editor/resources/style.qrc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd $(SolutionDir)..\msvc\test
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/dd/Groot-master/msvc/test/CMakeFiles/editor_test_autogen.dir/AutoRcc_style_K3L5NHU5SO_Info.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/dd/Groot-master/msvc/test/CMakeFiles/editor_test_autogen.dir/AutoRcc_style_K3L5NHU5SO_Info.json Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)..\bt_editor\resources\style.qrc;$(SolutionDir)..\msvc\test\CMakeFiles\editor_test_autogen.dir\AutoRcc_style_K3L5NHU5SO_Info.json;$(SolutionDir)..\bt_editor\resources\NodesStyle.json;$(SolutionDir)..\bt_editor\resources\stylesheet.qss;$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\bin\rcc.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)..\msvc\test\editor_test_autogen\K3L5NHU5SO\qrc_style.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Automatic RCC for ../bt_editor/resources/style.qrc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd $(SolutionDir)..\msvc\test
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/dd/Groot-master/msvc/test/CMakeFiles/editor_test_autogen.dir/AutoRcc_style_K3L5NHU5SO_Info.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/dd/Groot-master/msvc/test/CMakeFiles/editor_test_autogen.dir/AutoRcc_style_K3L5NHU5SO_Info.json Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)..\bt_editor\resources\style.qrc;$(SolutionDir)..\msvc\test\CMakeFiles\editor_test_autogen.dir\AutoRcc_style_K3L5NHU5SO_Info.json;$(SolutionDir)..\bt_editor\resources\NodesStyle.json;$(SolutionDir)..\bt_editor\resources\stylesheet.qss;$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\bin\rcc.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)..\msvc\test\editor_test_autogen\K3L5NHU5SO\qrc_style.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="$(SolutionDir)..\msvc\CMakeFiles\c62bda99dbeded814f05e1630de64802\qrc_test_files.cpp.rule">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Automatic RCC for ../test_data/test_files.qrc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd $(SolutionDir)..\msvc\test
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/dd/Groot-master/msvc/test/CMakeFiles/editor_test_autogen.dir/AutoRcc_test_files_4L4FNCFPKD_Info.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/dd/Groot-master/msvc/test/CMakeFiles/editor_test_autogen.dir/AutoRcc_test_files_4L4FNCFPKD_Info.json Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)..\test_data\test_files.qrc;$(SolutionDir)..\msvc\test\CMakeFiles\editor_test_autogen.dir\AutoRcc_test_files_4L4FNCFPKD_Info.json;$(SolutionDir)..\test_data\crossdoor_trace.fbl;$(SolutionDir)..\test_data\subtree_test_fail.xml;$(SolutionDir)..\test_data\crossdoor_with_subtree.xml;$(SolutionDir)..\test_data\test_xml_key_reordering_issue.xml;$(SolutionDir)..\test_data\SystemSkillTest.skills.json;$(SolutionDir)..\test_data\simple_without_model.xml;$(SolutionDir)..\test_data\test_subtrees_issue_8.xml;$(SolutionDir)..\test_data\issue_24.xml;$(SolutionDir)..\test_data\crossdoor_palette.xml;$(SolutionDir)..\test_data\show_all.xml;$(SolutionDir)..\test_data\issue_3.xml;$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\bin\rcc.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)..\msvc\test\editor_test_autogen\4L4FNCFPKD\qrc_test_files.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Automatic RCC for ../test_data/test_files.qrc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd $(SolutionDir)..\msvc\test
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/dd/Groot-master/msvc/test/CMakeFiles/editor_test_autogen.dir/AutoRcc_test_files_4L4FNCFPKD_Info.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/dd/Groot-master/msvc/test/CMakeFiles/editor_test_autogen.dir/AutoRcc_test_files_4L4FNCFPKD_Info.json Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)..\test_data\test_files.qrc;$(SolutionDir)..\msvc\test\CMakeFiles\editor_test_autogen.dir\AutoRcc_test_files_4L4FNCFPKD_Info.json;$(SolutionDir)..\test_data\crossdoor_trace.fbl;$(SolutionDir)..\test_data\subtree_test_fail.xml;$(SolutionDir)..\test_data\crossdoor_with_subtree.xml;$(SolutionDir)..\test_data\test_xml_key_reordering_issue.xml;$(SolutionDir)..\test_data\SystemSkillTest.skills.json;$(SolutionDir)..\test_data\simple_without_model.xml;$(SolutionDir)..\test_data\test_subtrees_issue_8.xml;$(SolutionDir)..\test_data\issue_24.xml;$(SolutionDir)..\test_data\crossdoor_palette.xml;$(SolutionDir)..\test_data\show_all.xml;$(SolutionDir)..\test_data\issue_3.xml;$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\bin\rcc.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)..\msvc\test\editor_test_autogen\4L4FNCFPKD\qrc_test_files.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="$(SolutionDir)..\test\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/dd/Groot-master/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/dd/Groot-master -BD:/dd/Groot-master/msvc --check-stamp-file D:/dd/Groot-master/msvc/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Test\Qt5TestConfig.cmake;$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Test\Qt5TestConfigExtras.cmake;$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Test\Qt5TestConfigVersion.cmake;$(SolutionDir)..\QtNodeEditor\resources\resources.qrc;$(SolutionDir)..\bt_editor\resources\icons.qrc;$(SolutionDir)..\bt_editor\resources\style.qrc;$(SolutionDir)..\test_data\test_files.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)..\msvc\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/dd/Groot-master/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/dd/Groot-master -BD:/dd/Groot-master/msvc --check-stamp-file D:/dd/Groot-master/msvc/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Test\Qt5TestConfig.cmake;$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Test\Qt5TestConfigExtras.cmake;$(SolutionDir)..\depend\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Test\Qt5TestConfigVersion.cmake;$(SolutionDir)..\QtNodeEditor\resources\resources.qrc;$(SolutionDir)..\bt_editor\resources\icons.qrc;$(SolutionDir)..\bt_editor\resources\style.qrc;$(SolutionDir)..\test_data\test_files.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)..\msvc\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(SolutionDir)..\msvc\test\editor_test_autogen\mocs_compilation_Debug.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\test\editor_test.cpp" />
+    <ClCompile Include="$(SolutionDir)..\test\groot_test_base.cpp" />
+    <None Include="$(SolutionDir)..\QtNodeEditor\resources\resources.qrc">
+    </None>
+    <None Include="$(SolutionDir)..\bt_editor\resources\icons.qrc">
+    </None>
+    <None Include="$(SolutionDir)..\bt_editor\resources\style.qrc">
+    </None>
+    <None Include="$(SolutionDir)..\test_data\test_files.qrc">
+    </None>
+    <ClCompile Include="$(SolutionDir)..\msvc\test\editor_test_autogen\EB4OVBCXLB\qrc_resources.cpp" />
+    <ClCompile Include="$(SolutionDir)..\msvc\test\editor_test_autogen\K3L5NHU5SO\qrc_icons.cpp" />
+    <ClCompile Include="$(SolutionDir)..\msvc\test\editor_test_autogen\K3L5NHU5SO\qrc_style.cpp" />
+    <ClCompile Include="$(SolutionDir)..\msvc\test\editor_test_autogen\4L4FNCFPKD\qrc_test_files.cpp" />
+    <ClCompile Include="$(SolutionDir)..\msvc\test\editor_test_autogen\mocs_compilation_Release.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="$(SolutionDir)..\msvc\test\editor_test_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\test\editor_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\test\groot_test_base.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\msvc\test\editor_test_autogen\EB4OVBCXLB\qrc_resources.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\msvc\test\editor_test_autogen\K3L5NHU5SO\qrc_icons.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\msvc\test\editor_test_autogen\K3L5NHU5SO\qrc_style.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\msvc\test\editor_test_autogen\4L4FNCFPKD\qrc_test_files.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\msvc\test\editor_test_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="$(SolutionDir)..\msvc\CMakeFiles\3d1587b938f52a63764a688a4e7f5412\qrc_resources.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="$(SolutionDir)..\msvc\CMakeFiles\83b2684de179751e72ccee3fce941c90\qrc_icons.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="$(SolutionDir)..\msvc\CMakeFiles\83b2684de179751e72ccee3fce941c90\qrc_style.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="$(SolutionDir)..\msvc\CMakeFiles\c62bda99dbeded814f05e1630de64802\qrc_test_files.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="$(SolutionDir)..\test\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(SolutionDir)..\QtNodeEditor\resources\resources.qrc" />
+    <None Include="$(SolutionDir)..\bt_editor\resources\icons.qrc" />
+    <None Include="$(SolutionDir)..\bt_editor\resources\style.qrc" />
+    <None Include="$(SolutionDir)..\test_data\test_files.qrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C188FF0D-83E1-34F5-AF02-A1E16F0416AE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{ADE526AF-D711-3B23-92B5-9A0409381F75}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

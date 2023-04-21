@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1F43CA72-5687-3C1D-999F-32C8D8D0B7EA}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>movebase_node_dyn</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)..\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectName).dir\$(Configuration)\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">movebase_node_dyn</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)..\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectName).dir\$(Configuration)\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">movebase_node_dyn</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\depend\zeromq-4.3.4\include;$(SolutionDir)..\depend\BehaviorTree.CPP\3rdparty\cppzmq;$(SolutionDir)..\depend\BehaviorTree.CPP\sample_nodes;$(SolutionDir)..\depend\BehaviorTree.CPP\include;$(SolutionDir)..\msvc\depend\BehaviorTree.CPP\sample_nodes;$(SolutionDir)..\msvc\depend\BehaviorTree.CPP\sample_nodes\movebase_node_dyn_autogen\include_$(Configuration);$(SolutionDir)..\QtNodeEditor\include;$(SolutionDir)..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>ZMQ_STATIC;%(PreprocessorDefinitions);BT_PLUGIN_EXPORT;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;NODE_EDITOR_STATIC;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;BT_NO_COROUTINES;ZMQ_FOUND;CMAKE_INTDIR="Debug";movebase_node_dyn_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;BT_PLUGIN_EXPORT;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;NODE_EDITOR_STATIC;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;BT_NO_COROUTINES;ZMQ_FOUND;CMAKE_INTDIR=\"Debug\";movebase_node_dyn_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\msvc\depend\BehaviorTree.CPP\sample_nodes;$(SolutionDir)..\depend\BehaviorTree.CPP\sample_nodes;$(SolutionDir)..\msvc\depend\BehaviorTree.CPP\sample_nodes\movebase_node_dyn_autogen\include_Debug;$(SolutionDir)..\.\QtNodeEditor\include;$(SolutionDir)..\.;$(SolutionDir)..\depend\BehaviorTree.CPP\sample_nodes\..\include;$(SolutionDir)..\depend\BehaviorTree.CPP\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\msvc\depend\BehaviorTree.CPP\sample_nodes;$(SolutionDir)..\depend\BehaviorTree.CPP\sample_nodes;$(SolutionDir)..\msvc\depend\BehaviorTree.CPP\sample_nodes\movebase_node_dyn_autogen\include_Debug;$(SolutionDir)..\.\QtNodeEditor\include;$(SolutionDir)..\.;$(SolutionDir)..\depend\BehaviorTree.CPP\sample_nodes\..\include;$(SolutionDir)..\depend\BehaviorTree.CPP\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC and UIC for target movebase_node_dyn</Message>
+      <Command>setlocal
+cd $(SolutionDir)..\msvc\depend\BehaviorTree.CPP\sample_nodes
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/dd/Groot-master/msvc/depend/BehaviorTree.CPP/sample_nodes/CMakeFiles/movebase_node_dyn_autogen.dir/AutogenInfo.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>behaviortree_cpp_v3.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\lib\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>$(OutDir)$(TargetName).lib</ImportLibrary>
+      <ProgramDataBaseFile>$(OutDir)$(TargetName).pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\depend\zeromq-4.3.4\include;$(SolutionDir)..\depend\BehaviorTree.CPP\3rdparty\cppzmq;$(SolutionDir)..\depend\BehaviorTree.CPP\sample_nodes;$(SolutionDir)..\depend\BehaviorTree.CPP\include;$(SolutionDir)..\msvc\depend\BehaviorTree.CPP\sample_nodes;$(SolutionDir)..\msvc\depend\BehaviorTree.CPP\sample_nodes\movebase_node_dyn_autogen\include_$(Configuration);$(SolutionDir)..\QtNodeEditor\include;$(SolutionDir)..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>ZMQ_STATIC;%(PreprocessorDefinitions);NDEBUG;BT_PLUGIN_EXPORT;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;NODE_EDITOR_STATIC;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;BT_NO_COROUTINES;ZMQ_FOUND;CMAKE_INTDIR="Release";movebase_node_dyn_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;NDEBUG;BT_PLUGIN_EXPORT;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;NODE_EDITOR_STATIC;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;BT_NO_COROUTINES;ZMQ_FOUND;CMAKE_INTDIR=\"Release\";movebase_node_dyn_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\msvc\depend\BehaviorTree.CPP\sample_nodes;$(SolutionDir)..\depend\BehaviorTree.CPP\sample_nodes;$(SolutionDir)..\msvc\depend\BehaviorTree.CPP\sample_nodes\movebase_node_dyn_autogen\include_Release;$(SolutionDir)..\.\QtNodeEditor\include;$(SolutionDir)..\.;$(SolutionDir)..\depend\BehaviorTree.CPP\sample_nodes\..\include;$(SolutionDir)..\depend\BehaviorTree.CPP\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\msvc\depend\BehaviorTree.CPP\sample_nodes;$(SolutionDir)..\depend\BehaviorTree.CPP\sample_nodes;$(SolutionDir)..\msvc\depend\BehaviorTree.CPP\sample_nodes\movebase_node_dyn_autogen\include_Release;$(SolutionDir)..\.\QtNodeEditor\include;$(SolutionDir)..\.;$(SolutionDir)..\depend\BehaviorTree.CPP\sample_nodes\..\include;$(SolutionDir)..\depend\BehaviorTree.CPP\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC and UIC for target movebase_node_dyn</Message>
+      <Command>setlocal
+cd $(SolutionDir)..\msvc\depend\BehaviorTree.CPP\sample_nodes
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/dd/Groot-master/msvc/depend/BehaviorTree.CPP/sample_nodes/CMakeFiles/movebase_node_dyn_autogen.dir/AutogenInfo.json Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>behaviortree_cpp_v3.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\lib\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>$(OutDir)$(TargetName).lib</ImportLibrary>
+      <ProgramDataBaseFile>$(OutDir)$(TargetName).pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="$(SolutionDir)..\depend\BehaviorTree.CPP\sample_nodes\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/dd/Groot-master/depend/BehaviorTree.CPP/sample_nodes/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/dd/Groot-master -BD:/dd/Groot-master/msvc --check-stamp-file D:/dd/Groot-master/msvc/depend/BehaviorTree.CPP/sample_nodes/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)..\msvc\depend\BehaviorTree.CPP\sample_nodes\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/dd/Groot-master/depend/BehaviorTree.CPP/sample_nodes/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/dd/Groot-master -BD:/dd/Groot-master/msvc --check-stamp-file D:/dd/Groot-master/msvc/depend/BehaviorTree.CPP/sample_nodes/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)..\msvc\depend\BehaviorTree.CPP\sample_nodes\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(SolutionDir)..\msvc\depend\BehaviorTree.CPP\sample_nodes\movebase_node_dyn_autogen\mocs_compilation_Debug.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\depend\BehaviorTree.CPP\sample_nodes\movebase_node.cpp" />
+    <ClCompile Include="$(SolutionDir)..\msvc\depend\BehaviorTree.CPP\sample_nodes\movebase_node_dyn_autogen\mocs_compilation_Release.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="$(SolutionDir)..\msvc\QtNodeEditor\QtNodeEditor_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\QtNodeEditor\src\Connection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\QtNodeEditor\src\ConnectionBlurEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\QtNodeEditor\src\ConnectionGeometry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\QtNodeEditor\src\ConnectionGraphicsObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\QtNodeEditor\src\ConnectionPainter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\QtNodeEditor\src\ConnectionState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\QtNodeEditor\src\ConnectionStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\QtNodeEditor\src\DataModelRegistry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\QtNodeEditor\src\FlowScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\QtNodeEditor\src\FlowView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\QtNodeEditor\src\FlowViewStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\QtNodeEditor\src\Node.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\QtNodeEditor\src\NodeConnectionInteraction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\QtNodeEditor\src\NodeDataModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\QtNodeEditor\src\NodeGeometry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\QtNodeEditor\src\NodeGraphicsObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\QtNodeEditor\src\NodePainter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\QtNodeEditor\src\NodeState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\QtNodeEditor\src\NodeStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\QtNodeEditor\src\Properties.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\QtNodeEditor\src\StyleCollection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\msvc\QtNodeEditor\qrc_resources.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\msvc\QtNodeEditor\include\nodes\internal\moc_Compiler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\msvc\QtNodeEditor\include\nodes\internal\moc_Connection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\msvc\QtNodeEditor\include\nodes\internal\moc_ConnectionGeometry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\msvc\QtNodeEditor\include\nodes\internal\moc_ConnectionGraphicsObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\msvc\QtNodeEditor\include\nodes\internal\moc_ConnectionState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\msvc\QtNodeEditor\include\nodes\internal\moc_ConnectionStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\msvc\QtNodeEditor\include\nodes\internal\moc_DataModelRegistry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\msvc\QtNodeEditor\include\nodes\internal\moc_Export.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\msvc\QtNodeEditor\include\nodes\internal\moc_FlowScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\msvc\QtNodeEditor\include\nodes\internal\moc_FlowView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\msvc\QtNodeEditor\include\nodes\internal\moc_FlowViewStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\msvc\QtNodeEditor\include\nodes\internal\moc_Node.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\msvc\QtNodeEditor\include\nodes\internal\moc_NodeData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\msvc\QtNodeEditor\include\nodes\internal\moc_NodeDataModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\msvc\QtNodeEditor\include\nodes\internal\moc_NodeGeometry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\msvc\QtNodeEditor\include\nodes\internal\moc_NodeGraphicsObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\msvc\QtNodeEditor\include\nodes\internal\moc_NodePainterDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\msvc\QtNodeEditor\include\nodes\internal\moc_NodeState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\msvc\QtNodeEditor\include\nodes\internal\moc_NodeStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\msvc\QtNodeEditor\include\nodes\internal\moc_OperatingSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\msvc\QtNodeEditor\include\nodes\internal\moc_PortType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\msvc\QtNodeEditor\include\nodes\internal\moc_QStringStdHash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\msvc\QtNodeEditor\include\nodes\internal\moc_QUuidStdHash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\msvc\QtNodeEditor\include\nodes\internal\moc_Serializable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\msvc\QtNodeEditor\include\nodes\internal\moc_Style.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\msvc\QtNodeEditor\include\nodes\internal\moc_TypeConverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\msvc\QtNodeEditor\include\nodes\internal\moc_memory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)..\msvc\QtNodeEditor\QtNodeEditor_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="$(SolutionDir)..\QtNodeEditor\resources\resources.qrc" />
+    <CustomBuild Include="$(SolutionDir)..\msvc\CMakeFiles\58a071eb6b99339d47e15bed271b3758\moc_Compiler.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="$(SolutionDir)..\msvc\CMakeFiles\58a071eb6b99339d47e15bed271b3758\moc_Connection.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="$(SolutionDir)..\msvc\CMakeFiles\58a071eb6b99339d47e15bed271b3758\moc_ConnectionGeometry.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="$(SolutionDir)..\msvc\CMakeFiles\58a071eb6b99339d47e15bed271b3758\moc_ConnectionGraphicsObject.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="$(SolutionDir)..\msvc\CMakeFiles\58a071eb6b99339d47e15bed271b3758\moc_ConnectionState.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="$(SolutionDir)..\msvc\CMakeFiles\58a071eb6b99339d47e15bed271b3758\moc_ConnectionStyle.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="$(SolutionDir)..\msvc\CMakeFiles\58a071eb6b99339d47e15bed271b3758\moc_DataModelRegistry.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="$(SolutionDir)..\msvc\CMakeFiles\58a071eb6b99339d47e15bed271b3758\moc_Export.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="$(SolutionDir)..\msvc\CMakeFiles\58a071eb6b99339d47e15bed271b3758\moc_FlowScene.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="$(SolutionDir)..\msvc\CMakeFiles\58a071eb6b99339d47e15bed271b3758\moc_FlowView.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="$(SolutionDir)..\msvc\CMakeFiles\58a071eb6b99339d47e15bed271b3758\moc_FlowViewStyle.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="$(SolutionDir)..\msvc\CMakeFiles\58a071eb6b99339d47e15bed271b3758\moc_Node.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="$(SolutionDir)..\msvc\CMakeFiles\58a071eb6b99339d47e15bed271b3758\moc_NodeData.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="$(SolutionDir)..\msvc\CMakeFiles\58a071eb6b99339d47e15bed271b3758\moc_NodeDataModel.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="$(SolutionDir)..\msvc\CMakeFiles\58a071eb6b99339d47e15bed271b3758\moc_NodeGeometry.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="$(SolutionDir)..\msvc\CMakeFiles\58a071eb6b99339d47e15bed271b3758\moc_NodeGraphicsObject.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="$(SolutionDir)..\msvc\CMakeFiles\58a071eb6b99339d47e15bed271b3758\moc_NodePainterDelegate.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="$(SolutionDir)..\msvc\CMakeFiles\58a071eb6b99339d47e15bed271b3758\moc_NodeState.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="$(SolutionDir)..\msvc\CMakeFiles\58a071eb6b99339d47e15bed271b3758\moc_NodeStyle.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="$(SolutionDir)..\msvc\CMakeFiles\58a071eb6b99339d47e15bed271b3758\moc_OperatingSystem.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="$(SolutionDir)..\msvc\CMakeFiles\58a071eb6b99339d47e15bed271b3758\moc_PortType.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="$(SolutionDir)..\msvc\CMakeFiles\58a071eb6b99339d47e15bed271b3758\moc_QStringStdHash.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="$(SolutionDir)..\msvc\CMakeFiles\58a071eb6b99339d47e15bed271b3758\moc_QUuidStdHash.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="$(SolutionDir)..\msvc\CMakeFiles\58a071eb6b99339d47e15bed271b3758\moc_Serializable.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="$(SolutionDir)..\msvc\CMakeFiles\58a071eb6b99339d47e15bed271b3758\moc_Style.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="$(SolutionDir)..\msvc\CMakeFiles\58a071eb6b99339d47e15bed271b3758\moc_TypeConverter.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="$(SolutionDir)..\msvc\CMakeFiles\58a071eb6b99339d47e15bed271b3758\moc_memory.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="$(SolutionDir)..\QtNodeEditor\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C188FF0D-83E1-34F5-AF02-A1E16F0416AE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{ADE526AF-D711-3B23-92B5-9A0409381F75}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
