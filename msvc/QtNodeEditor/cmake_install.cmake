@@ -1,4 +1,4 @@
-# Install script for directory: D:/dd/Groot-master/QtNodeEditor
+# Install script for directory: D:/gits/Groot/QtNodeEditor
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

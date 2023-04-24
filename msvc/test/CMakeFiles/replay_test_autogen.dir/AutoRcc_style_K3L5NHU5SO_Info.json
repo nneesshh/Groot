@@ -1,0 +1,27 @@
+{
+	"BUILD_DIR" : "D:/gits/Groot/msvc/test/replay_test_autogen",
+	"CMAKE_BINARY_DIR" : "D:/gits/Groot/msvc",
+	"CMAKE_CURRENT_BINARY_DIR" : "D:/gits/Groot/msvc/test",
+	"CMAKE_CURRENT_SOURCE_DIR" : "D:/gits/Groot/test",
+	"CMAKE_SOURCE_DIR" : "D:/gits/Groot",
+	"INCLUDE_DIR" : "D:/gits/Groot/msvc/test/replay_test_autogen/include",
+	"INCLUDE_DIR_Debug" : "D:/gits/Groot/msvc/test/replay_test_autogen/include_Debug",
+	"INCLUDE_DIR_Release" : "D:/gits/Groot/msvc/test/replay_test_autogen/include_Release",
+	"INPUTS" : 
+	[
+		"D:/gits/Groot/bt_editor/resources/NodesStyle.json",
+		"D:/gits/Groot/bt_editor/resources/stylesheet.qss"
+	],
+	"LOCK_FILE" : "D:/gits/Groot/msvc/test/CMakeFiles/replay_test_autogen.dir/AutoRcc_style_K3L5NHU5SO_Lock.lock",
+	"MULTI_CONFIG" : true,
+	"OPTIONS" : [ "-name", "style" ],
+	"OUTPUT_CHECKSUM" : "K3L5NHU5SO",
+	"OUTPUT_NAME" : "qrc_style.cpp",
+	"RCC_EXECUTABLE" : "D:/Qt/5.15.2/msvc2019_64/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "D:/gits/Groot/msvc/test/CMakeFiles/replay_test_autogen.dir/AutoRcc_style_K3L5NHU5SO_Used.txt",
+	"SETTINGS_FILE_Debug" : "D:/gits/Groot/msvc/test/CMakeFiles/replay_test_autogen.dir/AutoRcc_style_K3L5NHU5SO_Used_Debug.txt",
+	"SETTINGS_FILE_Release" : "D:/gits/Groot/msvc/test/CMakeFiles/replay_test_autogen.dir/AutoRcc_style_K3L5NHU5SO_Used_Release.txt",
+	"SOURCE" : "D:/gits/Groot/bt_editor/resources/style.qrc",
+	"VERBOSITY" : 0
+}

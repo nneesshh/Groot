@@ -1,0 +1,11 @@
+# CMake generation dependency list for this directory.
+D:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake
+D:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake
+D:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Test/Qt5TestConfig.cmake
+D:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Test/Qt5TestConfigExtras.cmake
+D:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Test/Qt5TestConfigVersion.cmake
+D:/gits/Groot/QtNodeEditor/resources/resources.qrc
+D:/gits/Groot/bt_editor/resources/icons.qrc
+D:/gits/Groot/bt_editor/resources/style.qrc
+D:/gits/Groot/test/CMakeLists.txt
+D:/gits/Groot/test_data/test_files.qrc

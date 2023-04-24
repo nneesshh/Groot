@@ -92,7 +92,7 @@ cd $(SolutionDir)..\msvc\depend\BehaviorTree.CPP\sample_nodes
 if %errorlevel% neq 0 goto :cmEnd
 D:
 if %errorlevel% neq 0 goto :cmEnd
-"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/dd/Groot-master/msvc/depend/BehaviorTree.CPP/sample_nodes/CMakeFiles/dummy_nodes_dyn_autogen.dir/AutogenInfo.json Debug
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/gits/Groot/msvc/depend/BehaviorTree.CPP/sample_nodes/CMakeFiles/dummy_nodes_dyn_autogen.dir/AutogenInfo.json Debug
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -152,7 +152,7 @@ cd $(SolutionDir)..\msvc\depend\BehaviorTree.CPP\sample_nodes
 if %errorlevel% neq 0 goto :cmEnd
 D:
 if %errorlevel% neq 0 goto :cmEnd
-"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/dd/Groot-master/msvc/depend/BehaviorTree.CPP/sample_nodes/CMakeFiles/dummy_nodes_dyn_autogen.dir/AutogenInfo.json Release
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/gits/Groot/msvc/depend/BehaviorTree.CPP/sample_nodes/CMakeFiles/dummy_nodes_dyn_autogen.dir/AutogenInfo.json Release
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -179,9 +179,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <CustomBuild Include="$(SolutionDir)..\depend\BehaviorTree.CPP\sample_nodes\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/dd/Groot-master/depend/BehaviorTree.CPP/sample_nodes/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/gits/Groot/depend/BehaviorTree.CPP/sample_nodes/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"D:\Program Files\CMake\bin\cmake.exe" -SD:/dd/Groot-master -BD:/dd/Groot-master/msvc --check-stamp-file D:/dd/Groot-master/msvc/depend/BehaviorTree.CPP/sample_nodes/CMakeFiles/generate.stamp
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/gits/Groot -BD:/gits/Groot/msvc --check-stamp-file D:/gits/Groot/msvc/depend/BehaviorTree.CPP/sample_nodes/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -193,9 +193,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)..\msvc\depend\BehaviorTree.CPP\sample_nodes\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</BuildInParallel>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/dd/Groot-master/depend/BehaviorTree.CPP/sample_nodes/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/gits/Groot/depend/BehaviorTree.CPP/sample_nodes/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"D:\Program Files\CMake\bin\cmake.exe" -SD:/dd/Groot-master -BD:/dd/Groot-master/msvc --check-stamp-file D:/dd/Groot-master/msvc/depend/BehaviorTree.CPP/sample_nodes/CMakeFiles/generate.stamp
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/gits/Groot -BD:/gits/Groot/msvc --check-stamp-file D:/gits/Groot/msvc/depend/BehaviorTree.CPP/sample_nodes/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone

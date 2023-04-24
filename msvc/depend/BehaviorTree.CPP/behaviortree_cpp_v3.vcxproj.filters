@@ -105,6 +105,9 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <CustomBuild Include="$(SolutionDir)..\depend\BehaviorTree.CPP\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
     <Filter Include="Source Files">
       <UniqueIdentifier>{ADE526AF-D711-3B23-92B5-9A0409381F75}</UniqueIdentifier>
     </Filter>

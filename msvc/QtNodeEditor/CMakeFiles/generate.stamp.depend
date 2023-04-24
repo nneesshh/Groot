@@ -1,0 +1,16 @@
+# CMake generation dependency list for this directory.
+D:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5/Qt5Config.cmake
+D:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake
+D:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake
+D:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake
+D:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake
+D:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake
+D:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake
+D:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Svg/Qt5SvgConfig.cmake
+D:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Svg/Qt5SvgConfigVersion.cmake
+D:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake
+D:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake
+D:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Xml/Qt5XmlConfig.cmake
+D:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Xml/Qt5XmlConfigVersion.cmake
+D:/gits/Groot/QtNodeEditor/CMakeLists.txt
+D:/gits/Groot/QtNodeEditor/resources/resources.qrc

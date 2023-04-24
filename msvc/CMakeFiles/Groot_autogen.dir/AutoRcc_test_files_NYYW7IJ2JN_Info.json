@@ -1,0 +1,36 @@
+{
+	"BUILD_DIR" : "D:/gits/Groot/msvc/Groot_autogen",
+	"CMAKE_BINARY_DIR" : "D:/gits/Groot/msvc",
+	"CMAKE_CURRENT_BINARY_DIR" : "D:/gits/Groot/msvc",
+	"CMAKE_CURRENT_SOURCE_DIR" : "D:/gits/Groot",
+	"CMAKE_SOURCE_DIR" : "D:/gits/Groot",
+	"INCLUDE_DIR" : "D:/gits/Groot/msvc/Groot_autogen/include",
+	"INCLUDE_DIR_Debug" : "D:/gits/Groot/msvc/Groot_autogen/include_Debug",
+	"INCLUDE_DIR_Release" : "D:/gits/Groot/msvc/Groot_autogen/include_Release",
+	"INPUTS" : 
+	[
+		"D:/gits/Groot/test_data/crossdoor_trace.fbl",
+		"D:/gits/Groot/test_data/subtree_test_fail.xml",
+		"D:/gits/Groot/test_data/crossdoor_with_subtree.xml",
+		"D:/gits/Groot/test_data/test_xml_key_reordering_issue.xml",
+		"D:/gits/Groot/test_data/SystemSkillTest.skills.json",
+		"D:/gits/Groot/test_data/simple_without_model.xml",
+		"D:/gits/Groot/test_data/test_subtrees_issue_8.xml",
+		"D:/gits/Groot/test_data/issue_24.xml",
+		"D:/gits/Groot/test_data/crossdoor_palette.xml",
+		"D:/gits/Groot/test_data/show_all.xml",
+		"D:/gits/Groot/test_data/issue_3.xml"
+	],
+	"LOCK_FILE" : "D:/gits/Groot/msvc/CMakeFiles/Groot_autogen.dir/AutoRcc_test_files_NYYW7IJ2JN_Lock.lock",
+	"MULTI_CONFIG" : true,
+	"OPTIONS" : [ "-name", "test_files" ],
+	"OUTPUT_CHECKSUM" : "NYYW7IJ2JN",
+	"OUTPUT_NAME" : "qrc_test_files.cpp",
+	"RCC_EXECUTABLE" : "D:/Qt/5.15.2/msvc2019_64/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "D:/gits/Groot/msvc/CMakeFiles/Groot_autogen.dir/AutoRcc_test_files_NYYW7IJ2JN_Used.txt",
+	"SETTINGS_FILE_Debug" : "D:/gits/Groot/msvc/CMakeFiles/Groot_autogen.dir/AutoRcc_test_files_NYYW7IJ2JN_Used_Debug.txt",
+	"SETTINGS_FILE_Release" : "D:/gits/Groot/msvc/CMakeFiles/Groot_autogen.dir/AutoRcc_test_files_NYYW7IJ2JN_Used_Release.txt",
+	"SOURCE" : "D:/gits/Groot/test_data/test_files.qrc",
+	"VERBOSITY" : 0
+}

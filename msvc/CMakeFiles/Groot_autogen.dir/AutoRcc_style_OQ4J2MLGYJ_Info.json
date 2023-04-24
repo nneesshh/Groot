@@ -1,0 +1,27 @@
+{
+	"BUILD_DIR" : "D:/gits/Groot/msvc/Groot_autogen",
+	"CMAKE_BINARY_DIR" : "D:/gits/Groot/msvc",
+	"CMAKE_CURRENT_BINARY_DIR" : "D:/gits/Groot/msvc",
+	"CMAKE_CURRENT_SOURCE_DIR" : "D:/gits/Groot",
+	"CMAKE_SOURCE_DIR" : "D:/gits/Groot",
+	"INCLUDE_DIR" : "D:/gits/Groot/msvc/Groot_autogen/include",
+	"INCLUDE_DIR_Debug" : "D:/gits/Groot/msvc/Groot_autogen/include_Debug",
+	"INCLUDE_DIR_Release" : "D:/gits/Groot/msvc/Groot_autogen/include_Release",
+	"INPUTS" : 
+	[
+		"D:/gits/Groot/bt_editor/resources/NodesStyle.json",
+		"D:/gits/Groot/bt_editor/resources/stylesheet.qss"
+	],
+	"LOCK_FILE" : "D:/gits/Groot/msvc/CMakeFiles/Groot_autogen.dir/AutoRcc_style_OQ4J2MLGYJ_Lock.lock",
+	"MULTI_CONFIG" : true,
+	"OPTIONS" : [ "-name", "style" ],
+	"OUTPUT_CHECKSUM" : "OQ4J2MLGYJ",
+	"OUTPUT_NAME" : "qrc_style.cpp",
+	"RCC_EXECUTABLE" : "D:/Qt/5.15.2/msvc2019_64/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "D:/gits/Groot/msvc/CMakeFiles/Groot_autogen.dir/AutoRcc_style_OQ4J2MLGYJ_Used.txt",
+	"SETTINGS_FILE_Debug" : "D:/gits/Groot/msvc/CMakeFiles/Groot_autogen.dir/AutoRcc_style_OQ4J2MLGYJ_Used_Debug.txt",
+	"SETTINGS_FILE_Release" : "D:/gits/Groot/msvc/CMakeFiles/Groot_autogen.dir/AutoRcc_style_OQ4J2MLGYJ_Used_Release.txt",
+	"SOURCE" : "D:/gits/Groot/bt_editor/resources/style.qrc",
+	"VERBOSITY" : 0
+}

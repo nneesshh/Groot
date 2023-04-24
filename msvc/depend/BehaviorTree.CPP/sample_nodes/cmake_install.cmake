@@ -1,4 +1,4 @@
-# Install script for directory: D:/dd/Groot-master/depend/BehaviorTree.CPP/sample_nodes
+# Install script for directory: D:/gits/Groot/depend/BehaviorTree.CPP/sample_nodes
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

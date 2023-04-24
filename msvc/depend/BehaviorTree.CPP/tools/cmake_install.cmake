@@ -1,4 +1,4 @@
-# Install script for directory: D:/dd/Groot-master/depend/BehaviorTree.CPP/tools
+# Install script for directory: D:/gits/Groot/depend/BehaviorTree.CPP/tools
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,25 +34,25 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "D:/dd/Groot-master/msvc/depend/BehaviorTree.CPP/tools/Debug/bt3_log_cat.exe")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "D:/gits/Groot/msvc/depend/BehaviorTree.CPP/tools/Debug/bt3_log_cat.exe")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "D:/dd/Groot-master/msvc/depend/BehaviorTree.CPP/tools/Release/bt3_log_cat.exe")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "D:/gits/Groot/msvc/depend/BehaviorTree.CPP/tools/Release/bt3_log_cat.exe")
   endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "D:/dd/Groot-master/msvc/depend/BehaviorTree.CPP/tools/Debug/bt3_recorder.exe")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "D:/gits/Groot/msvc/depend/BehaviorTree.CPP/tools/Debug/bt3_recorder.exe")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "D:/dd/Groot-master/msvc/depend/BehaviorTree.CPP/tools/Release/bt3_recorder.exe")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "D:/gits/Groot/msvc/depend/BehaviorTree.CPP/tools/Release/bt3_recorder.exe")
   endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "D:/dd/Groot-master/msvc/depend/BehaviorTree.CPP/tools/Debug/bt3_plugin_manifest.exe")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "D:/gits/Groot/msvc/depend/BehaviorTree.CPP/tools/Debug/bt3_plugin_manifest.exe")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "D:/dd/Groot-master/msvc/depend/BehaviorTree.CPP/tools/Release/bt3_plugin_manifest.exe")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "D:/gits/Groot/msvc/depend/BehaviorTree.CPP/tools/Release/bt3_plugin_manifest.exe")
   endif()
 endif()
 

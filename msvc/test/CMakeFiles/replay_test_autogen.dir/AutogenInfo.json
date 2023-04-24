@@ -1,0 +1,124 @@
+{
+	"BUILD_DIR" : "D:/gits/Groot/msvc/test/replay_test_autogen",
+	"CMAKE_BINARY_DIR" : "D:/gits/Groot/msvc",
+	"CMAKE_CURRENT_BINARY_DIR" : "D:/gits/Groot/msvc/test",
+	"CMAKE_CURRENT_SOURCE_DIR" : "D:/gits/Groot/test",
+	"CMAKE_EXECUTABLE" : "D:/Program Files/CMake/bin/cmake.exe",
+	"CMAKE_LIST_FILES" : 
+	[
+		"D:/gits/Groot/test/CMakeLists.txt",
+		"D:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Test/Qt5TestConfigVersion.cmake",
+		"D:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Test/Qt5TestConfig.cmake",
+		"D:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Test/Qt5TestConfigExtras.cmake",
+		"D:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake",
+		"D:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake",
+		"D:/gits/Groot/QtNodeEditor/resources/resources.qrc",
+		"D:/gits/Groot/bt_editor/resources/icons.qrc",
+		"D:/gits/Groot/bt_editor/resources/style.qrc",
+		"D:/gits/Groot/test_data/test_files.qrc",
+		"D:/gits/Groot/QtNodeEditor/resources/resources.qrc",
+		"D:/gits/Groot/bt_editor/resources/icons.qrc",
+		"D:/gits/Groot/bt_editor/resources/style.qrc",
+		"D:/gits/Groot/test_data/test_files.qrc"
+	],
+	"CMAKE_SOURCE_DIR" : "D:/gits/Groot",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"D:/gits/Groot/test/groot_test_base.h",
+			"MU",
+			"EWIEGA46WW/moc_groot_test_base.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "D:/gits/Groot/msvc/test/replay_test_autogen/include",
+	"INCLUDE_DIR_Debug" : "D:/gits/Groot/msvc/test/replay_test_autogen/include_Debug",
+	"INCLUDE_DIR_Release" : "D:/gits/Groot/msvc/test/replay_test_autogen/include_Release",
+	"MOC_COMPILATION_FILE" : "D:/gits/Groot/msvc/test/replay_test_autogen/mocs_compilation.cpp",
+	"MOC_COMPILATION_FILE_Debug" : "D:/gits/Groot/msvc/test/replay_test_autogen/mocs_compilation_Debug.cpp",
+	"MOC_COMPILATION_FILE_Release" : "D:/gits/Groot/msvc/test/replay_test_autogen/mocs_compilation_Release.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"NODE_EDITOR_STATIC",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NO_DEBUG",
+		"QT_SVG_LIB",
+		"QT_TESTCASE_BUILDDIR=\"D:/gits/Groot/msvc\"",
+		"QT_TESTLIB_LIB",
+		"QT_WIDGETS_LIB",
+		"QT_XML_LIB",
+		"WIN32",
+		"ZMQ_FOUND"
+	],
+	"MOC_DEFINITIONS_Debug" : 
+	[
+		"NODE_EDITOR_STATIC",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_SVG_LIB",
+		"QT_TESTCASE_BUILDDIR=\"D:/gits/Groot/msvc\"",
+		"QT_TESTLIB_LIB",
+		"QT_WIDGETS_LIB",
+		"QT_XML_LIB",
+		"WIN32",
+		"ZMQ_FOUND"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"D:/gits/Groot/msvc/test",
+		"D:/gits/Groot/test",
+		"D:/gits/Groot/QtNodeEditor/include",
+		"D:/gits/Groot",
+		"D:/gits/Groot/depend/BehaviorTree.CPP/include",
+		"D:/gits/Groot/QtNodeEditor/include",
+		"D:/Qt/5.15.2/msvc2019_64/include",
+		"D:/Qt/5.15.2/msvc2019_64/include/QtGui",
+		"D:/Qt/5.15.2/msvc2019_64/include/QtANGLE",
+		"D:/Qt/5.15.2/msvc2019_64/include/QtCore",
+		"D:/Qt/5.15.2/msvc2019_64/mkspecs/win32-msvc",
+		"D:/Qt/5.15.2/msvc2019_64/include/QtTest",
+		"D:/Qt/5.15.2/msvc2019_64/include/QtWidgets",
+		"D:/Qt/5.15.2/msvc2019_64/include/QtSvg",
+		"D:/Qt/5.15.2/msvc2019_64/include/QtXml"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : [],
+	"MOC_PREDEFS_FILE" : "",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : true,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "D:/gits/Groot/msvc/test/CMakeFiles/replay_test_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE_Debug" : "D:/gits/Groot/msvc/test/CMakeFiles/replay_test_autogen.dir/ParseCache_Debug.txt",
+	"PARSE_CACHE_FILE_Release" : "D:/gits/Groot/msvc/test/CMakeFiles/replay_test_autogen.dir/ParseCache_Release.txt",
+	"QT_MOC_EXECUTABLE" : "D:/Qt/5.15.2/msvc2019_64/bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "D:/Qt/5.15.2/msvc2019_64/bin/uic.exe",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "D:/gits/Groot/msvc/test/CMakeFiles/replay_test_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE_Debug" : "D:/gits/Groot/msvc/test/CMakeFiles/replay_test_autogen.dir/AutogenUsed_Debug.txt",
+	"SETTINGS_FILE_Release" : "D:/gits/Groot/msvc/test/CMakeFiles/replay_test_autogen.dir/AutogenUsed_Release.txt",
+	"SOURCES" : 
+	[
+		[ "D:/gits/Groot/test/groot_test_base.cpp", "MU", null ],
+		[ "D:/gits/Groot/test/replay_test.cpp", "MU", null ]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

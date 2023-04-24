@@ -1,4 +1,4 @@
-# Install script for directory: D:/dd/Groot-master/test
+# Install script for directory: D:/gits/Groot/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
