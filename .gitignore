@@ -45,7 +45,9 @@ obj/
 
 CMakeCache.txt
 generate.stamp
-AutogenUsed_Debug.txt
+Used_Debug.txt
+Used_Release.txt
+
 mocs_*
 
 *.aps

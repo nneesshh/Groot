@@ -30,7 +30,6 @@
     <CustomBuild Include="$(SolutionDir)..\msvc\CMakeFiles\8667afd906b223e9049bce9c37489df6\qrc_test_files.cpp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="$(SolutionDir)..\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <None Include="$(SolutionDir)..\bt_editor\resources\icons.qrc" />
