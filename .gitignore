@@ -7,18 +7,31 @@
 
 /msvc/*_autogen/
 /msvc/*.dir/
+/msvc/lib/
+
 /msvc/depend/BehaviorTree.CPP/*_autogen/
 /msvc/depend/BehaviorTree.CPP/*.dir/
+/msvc/depend/BehaviorTree.CPP/lib/
+
 /msvc/depend/BehaviorTree.CPP/sample_nodes/*_autogen/
 /msvc/depend/BehaviorTree.CPP/sample_nodes/*.dir/
+/msvc/depend/BehaviorTree.CPP/sample_nodes/lib/
+
 /msvc/depend/BehaviorTree.CPP/tools/*_autogen/
 /msvc/depend/BehaviorTree.CPP/tools/*.dir/
+/msvc/depend/BehaviorTree.CPP/tools/lib/
+
 /msvc/QtNodeEditor/*_autogen/
 /msvc/QtNodeEditor/*.dir/
+/msvc/QtNodeEditor/lib/
+
 /msvc/QtNodeEditor/include/
 /msvc/QtNodeEditor/resources/
+
 /msvc/test/*_autogen/
 /msvc/test/*.dir/
+/msvc/test/lib/
+
 /msvc/ui_*
 /msvc/x64/
 /msvc/x86/
@@ -31,6 +44,8 @@
 obj/
 
 CMakeCache.txt
+generate.stamp
+AutogenUsed_Debug.txt
 mocs_*
 
 *.aps
