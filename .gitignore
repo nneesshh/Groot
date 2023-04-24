@@ -45,8 +45,8 @@ obj/
 
 CMakeCache.txt
 generate.stamp
-Used_Debug.txt
-Used_Release.txt
+*Used_Debug.txt
+*Used_Release.txt
 
 mocs_*
 
