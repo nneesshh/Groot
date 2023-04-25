@@ -36,7 +36,6 @@
 /msvc/x64/
 /msvc/x86/
 
-/depend/Qt/*
 /depend/zeromq-4.3.4/bin/
 /depend/zeromq-4.3.4/msvc/*.dir/
 
